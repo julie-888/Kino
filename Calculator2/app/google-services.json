@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179975346450",
+    "project_id": "diploma-513c6",
+    "storage_bucket": "diploma-513c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179975346450:android:32eeeecccaaac1c69bfbcb",
+        "android_client_info": {
+          "package_name": "com.example.kino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179975346450-it8gu0883iqegm3ducai7eunhshc2lva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo4EIzQryPIYWi_VJypozgwZw8yS0LXJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179975346450-it8gu0883iqegm3ducai7eunhshc2lva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Кино</string>
+    <string name="search_by_name">Поиск по ключевому слову</string>
+</resources>

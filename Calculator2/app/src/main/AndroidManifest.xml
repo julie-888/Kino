@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kino"
+        tools:targetApi="31">
+        <activity
+            android:name=".SearchByCountryList"
+            android:exported="false"/>
+        <activity
+            android:name=".SearchByCountry"
+            android:exported="false"
+            android:label="@string/search_by_name"/>
+        <activity
+            android:name=".SearchByWordDetail"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByActorList"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByActor"
+            android:exported="false" />
+        <activity
+            android:name=".Adapter"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByWordList"
+            android:exported="false" />
+        <activity
+            android:name=".SearchByWord"
+            android:exported="true" />
+        <activity
+            android:name=".Detail"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
